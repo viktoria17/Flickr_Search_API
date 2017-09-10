@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AJAX Flickr Photo Search</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="search__heading">
+        <h1>Flickr Photo Search</h1>
+        <form class="search__form">
+            <label class="search__form--label" for="search__input">Type a search term</label>
+            <input class="search__form--input" type='search' name="search" id="search__input">
+            <button class="search__form--btn search__submit" id="submit-btn" type="submit" value="Search">Search
+            </button>
+        </form>
+    </div>
+    <ul id="photos"></ul>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
